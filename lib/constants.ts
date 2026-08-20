@@ -2,15 +2,15 @@ export const SITE_METADATA = {
   title: "NEO / Story Experience",
   tagline: "A chronological narrative portfolio",
   author: "Neo",
-  phase: "STORY ENGINE / 02",
+  phase: "CHAPTER 01 / ORIGIN",
   totalPhases: 7,
-  version: "0.2.0",
+  version: "0.3.0",
 } as const;
 
 export const PHASE_STATUS = [
   { id: 1, name: "Foundation + Design System", status: "completed", description: "Design tokens, typography, layout, typed schemas" },
-  { id: 2, name: "Story Engine & Experience Architecture", status: "active", description: "Scroll choreography, chapter triggers, timeline mechanics, scene renderer" },
-  { id: 3, name: "Prologue & Origin Scenes", status: "upcoming", description: "Childhood curiosity, first hardware, discovering the internet" },
+  { id: 2, name: "Story Engine & Experience Architecture", status: "completed", description: "Scroll choreography, chapter triggers, timeline mechanics, scene renderer" },
+  { id: 3, name: "Chapter 01: Origin / The Curiosity", status: "active", description: "Childhood curiosity, handheld phone discovery, Class 5 startup, Class 8 laptop & modem" },
   { id: 4, name: "Programming & Exhibition Era", status: "upcoming", description: "First code, competition, supermarket software, exhibition" },
   { id: 5, name: "Professional & Crisis Era", status: "upcoming", description: "College, online enrollment, midnight backend rebuild" },
   { id: 6, name: "Present & Future Projects", status: "upcoming", description: "Nepalgunj Skin Center, current ventures, future roadmap" },
