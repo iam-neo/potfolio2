@@ -47,7 +47,7 @@ export function InteractiveScene({ scene, activation, className }: InteractiveSc
         </h3>
         {scene.lead && (
           <p className="font-display italic text-base sm:text-lg text-[#d9825b] font-light">
-            &ldquo;{scene.lead}&rdquo;
+            {scene.lead}
           </p>
         )}
       </div>

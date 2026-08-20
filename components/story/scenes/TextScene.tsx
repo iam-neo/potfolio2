@@ -45,7 +45,7 @@ export function TextScene({ scene, activation, className }: SceneComponentProps)
       {/* Lead Text */}
       {scene.lead && (
         <p className="font-display italic text-lg sm:text-xl text-[#d9825b] font-light leading-relaxed">
-          &ldquo;{scene.lead}&rdquo;
+          {scene.lead}
         </p>
       )}
 

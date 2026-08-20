@@ -42,7 +42,7 @@ export function ProjectScene({ scene, activation, className }: ProjectSceneProps
         </h3>
         {scene.lead && (
           <p className="font-display italic text-lg text-[#d9825b] font-light">
-            &ldquo;{scene.lead}&rdquo;
+            {scene.lead}
           </p>
         )}
       </div>

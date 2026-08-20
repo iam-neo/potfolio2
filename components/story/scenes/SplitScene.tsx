@@ -112,9 +112,10 @@ export function SplitScene({ scene, activation, className }: SplitSceneProps) {
     // 3. Unanswered Childhood Questions (Discs, Memory, Software)
     if (scene.id === "scene-01-unanswered-questions") {
       const questions = [
-        { label: "Optical Media", query: "How does a spinning plastic disc contain an entire movie?" },
-        { label: "Memory Storage", query: "Where does music physically exist inside a machine?" },
-        { label: "Software Logic", query: "How does the machine know which sequence of actions to take?" },
+        { label: "CDs & DVDs", query: "How can a CD or DVD contain a movie or song?" },
+        { label: "Memory & Storage", query: "Where does the information actually exist?" },
+        { label: "Software & Logic", query: "How does a computer know what to do?" },
+        { label: "Everyday Machines", query: "How do these devices actually work?" },
       ];
 
       return (
@@ -122,7 +123,7 @@ export function SplitScene({ scene, activation, className }: SplitSceneProps) {
           <div className="flex items-center gap-2 text-[#d9825b]">
             <HelpCircle className="w-3.5 h-3.5" />
             <span className="font-mono text-xs uppercase tracking-wider font-semibold">
-              Childhood Inquiries
+              Questions I Remember Having
             </span>
           </div>
 
@@ -138,15 +139,15 @@ export function SplitScene({ scene, activation, className }: SplitSceneProps) {
                     {q.label}
                   </span>
                 </div>
-                <p className="font-body text-xs text-[#8e91a2] italic">
-                  &ldquo;{q.query}&rdquo;
+                <p className="font-body text-xs text-[#8e91a2]">
+                  {q.query}
                 </p>
               </div>
             ))}
           </div>
 
           <div className="p-2.5 rounded bg-[#161722] border border-[#252838] flex items-center justify-between text-[11px] font-mono text-[#a8abbf]">
-            <span>Environment</span>
+            <span>Context</span>
             <span className="text-[#9496a4]">No Technical Guidance Available</span>
           </div>
         </div>
@@ -188,7 +189,7 @@ export function SplitScene({ scene, activation, className }: SplitSceneProps) {
 
           {scene.lead && (
             <p className="font-display italic text-base sm:text-lg text-[#d9825b] font-light">
-              &ldquo;{scene.lead}&rdquo;
+              {scene.lead}
             </p>
           )}
 
