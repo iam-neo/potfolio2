@@ -16,7 +16,7 @@ export const STORY_CHAPTERS: StoryChapter[] = [
       {
         id: "scene-01-01",
         chapterId: "chapter-01",
-        type: "prologue",
+        type: "cinematic",
         title: "Curiosity Before Code",
         body: [
           "Before syntax and systems, there was simply a relentless urge to understand how things work.",
@@ -57,7 +57,7 @@ export const STORY_CHAPTERS: StoryChapter[] = [
       {
         id: "scene-03-01",
         chapterId: "chapter-03",
-        type: "turning-point",
+        type: "cinematic",
         title: "Constraints as Catalyst",
         body: [
           "When hardware failed, determination took over. Building desktop software and competing against odds.",
@@ -76,7 +76,7 @@ export const STORY_CHAPTERS: StoryChapter[] = [
       {
         id: "scene-04-01",
         chapterId: "chapter-04",
-        type: "reflection",
+        type: "text",
         title: "Resilience in Production",
         body: [
           "Real engineering is learned when production breaks and the solution must be delivered before dawn.",
@@ -95,7 +95,7 @@ export const STORY_CHAPTERS: StoryChapter[] = [
       {
         id: "scene-05-01",
         chapterId: "chapter-05",
-        type: "epilogue",
+        type: "cinematic",
         title: "The Continuous Journey",
         body: [
           "Building scalable systems with refined aesthetics, technical precision, and human purpose.",
