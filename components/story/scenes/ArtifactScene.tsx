@@ -69,10 +69,13 @@ export function ArtifactScene({ scene, activation, className }: ArtifactScenePro
             />
           </div>
         ) : (
-          <div className="aspect-[4/3] sm:aspect-video w-full rounded border border-[#1e202b] bg-[#0d0e13] flex items-center justify-center p-6 text-center">
-            <span className="font-mono text-xs text-[#717485]">
-              [Archival Record: {artifact?.title || "Evidence Placeholder"}]
-            </span>
+          <div className="aspect-[4/3] sm:aspect-video w-full rounded border border-dashed border-[#2a2c3a] bg-[#0a0b0e] flex flex-col items-center justify-center p-6 text-center space-y-2">
+            <MonoLabel variant="accent" size="xs">
+              REAL ARTIFACT — TO BE ADDED
+            </MonoLabel>
+            <p className="font-mono text-xs text-[#717485] max-w-sm">
+              Archival physical specimen / original file pending digitization
+            </p>
           </div>
         )}
 

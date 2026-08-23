@@ -27,11 +27,11 @@ export default function Home() {
           {/* Opening Statement */}
           <div className="space-y-4">
             <h1 className="text-display-hero text-[#f0f0f4]">
-              Origin / <br />
-              <span className="italic text-[#d9825b] font-normal">The Curiosity</span>
+              Origin → Discovery <br />
+              <span className="italic text-[#d9825b] font-normal">→ Building → Systems → Pressure → Scale → Professional</span>
             </h1>
             <p className="font-body text-base sm:text-lg text-[#9496a4] max-w-xl mx-auto leading-relaxed">
-              A chronological narrative of early contact with technology, unguided questions, self-directed experimentation, and the discovery of the internet.
+              A chronological narrative from early curiosity and self-directed learning to desktop systems, crisis-tested midnight rebuilds, two-sided institutional architectures, and professional software engineering.
             </p>
           </div>
 
